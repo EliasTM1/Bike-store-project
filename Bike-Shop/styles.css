@@ -1,0 +1,76 @@
+body {
+    color: black;
+    background-image: url(images/backog.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem !important;
+    color: white;
+}
+
+h2,
+h3,
+h3,
+h4,
+label,
+button {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+span,
+p {
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.form-control {
+    border-radius: 20px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: white !important;
+    border: none !important;
+    outline: none;
+    height: 30px;
+    transition: height 1s;
+    -webkit-transition: height 1s
+}
+
+::placeholder {
+    color: white !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+.contene {
+    top: 15%;
+    position: relative;
+    backdrop-filter: blur(10px);
+    width: 100%;
+}
+
+.guardados {
+    padding-left: 30px;
+}
+
+.escrol {
+    height: 335px;
+    overflow: auto;
+}
+
+.btn-sty {
+    border-radius: 15px;
+}
+
+input:focus {
+    background-color: transparent;
+}
+
+select:focus {
+    background-color: transparent;
+}
